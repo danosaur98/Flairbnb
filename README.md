@@ -7,7 +7,7 @@ Three graphs were provided. This was done using the Python package PANDAS to par
 This was done using TensorFlow to create a multivariable equation for price estimates given a location. It uses latitude and longitude as inputs and price as the output. After millions of iterations of training, the equation that most closely matches the data points was ```price = 0.88093132*latitude + (-1.81391311)*longitude + 0.076020```. The code for this is found in /Python/MLOptimization.
 
 ### Bookings optimization: Given the geo-location (latitude and longitude) of a property, what is the ideal price per night that will yield maximum bookings or revenue?
-This was done by subtracting a set amount of money from the price estimation. The logic was that if you undercut your competition by a certain amount, your listings will be more popular among consumers.
+This was done by subtracting a set amount of money from the price estimation. The logic was that if you undercut your competition by a certain amount, your listings will be more popular among consumers and thus maximize bookings.
 
 ### Animate: Add an animation to your visualization.
 The carousel provides an animation between the highlights of the webpage. It takes a few seconds for the animation to show. The front end was created using Bootstrap and HTML/CSS/Javascript.
