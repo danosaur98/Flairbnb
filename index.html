@@ -21,7 +21,10 @@
     <!--[if lt IE 9]>
     <script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="docs/assets/js/ie-emulation-modes-warning.js"></script>
-
+    <script src="smooth-scroll.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.addEventListener('load', SmoothScrolling.configureEventHandlers);
+    </script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -51,9 +54,10 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li class="active"><a href="#myCarousel">Home</a></li>
+                        <li><a href="#Data Analysis">Data Analysis</a></li>
+                        <li><a href="#Estimation">Price Estimation and Bookings Optimization</a></li>
+                        <li><a href="#Neighborhood">Best and Worst Neighborhoods</a></li>
                     </ul>
                 </div>
             </div>
@@ -83,7 +87,6 @@
                 <div class="carousel-caption">
                     <h1>Flairbnb</h1>
                     <p>Understand and optimize your Airbnb listings with style. </p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
                 </div>
             </div>
         </div>
@@ -95,7 +98,7 @@
                 <div class="carousel-caption">
                     <h1>Data Analysis</h1>
                     <p>Using PANDAS to process millions of lines of web-scraped data.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="#Data Analysis" role="button">Learn more</a></p>
                 </div>
             </div>
         </div>
@@ -107,7 +110,7 @@
                 <div class="carousel-caption">
                     <h1>Machine Learning</h1>
                     <p>Employing TensorFlow to model San Francisco's price distribution to find your estimated cost.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="#Estimation" role="button">Learn more</a></p>
                 </div>
             </div>
         </div>
@@ -120,7 +123,7 @@
                     <h1>Sentiment Analysis</h1>
                     <p>Utilizing natural language processing to understand which neighborhoods get the most positive
                         reviews.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="#Neighborhood" role="button">Learn More</a></p>
                 </div>
             </div>
         </div>
@@ -146,7 +149,7 @@
 
     <hr class="featurette-divider">
 
-    <div class="row featurette">
+    <div class="row featurette" id="Data Analysis">
         <div class="col-md-7">
             <h2 class="featurette-heading">Frequency of Available Listings by Month</h2>
             <p class="lead">January and December appear to be most popular for Airbnb hosts to list their property</p>
@@ -185,7 +188,7 @@
 
     <hr class="featurette-divider">
 
-    <div class="row featurette">
+    <div class="row featurette" id="Estimation">
         <div class="col-md-7 col-md-push-5">
             <h2 class="featurette-heading">Price Estimation and Bookings Optimization</h2>
             <p class="lead">Enter your geographical coordinates within San Francisco (between 37.7069276929 and
@@ -228,7 +231,7 @@
     </div>
     <hr class="featurette-divider">
 
-    <div class="row featurette">
+    <div class="row featurette" id="Neighborhood">
         <div class="col-md-7">
             <h2 class="featurette-heading">Neighborhood with Best Reviews</h2>
             <p class="lead">Potrero Hill, Castro/Upper Market, Pacific Heights, Mission, and Golden Gate Park have the
@@ -241,7 +244,7 @@
                     <th scope="col">#</th>
                     <th scope="col">Neighborhood</th>
                     <th scope="col">Sentimental Score (-1 to 1, 1 is most positive)</th>
-                    <th scope="col">Percent Positive Reviews </th>
+                    <th scope="col">Percent Positive Reviews</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -315,14 +318,25 @@
             </table>
         </div>
     </div>
-    <!-- /END THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <h1>Investing $100M</h1>
+        <p class="lead">If you were to invest $100M, you should buy properties at 37.83108769293941 latitude and
+            -122.51149999 longitude because it is where you can make the maximum profit of $257.50 a night with each
+            property. Houses are about $1.5M each, so you would be able to buy 66 houses. If each house made $257.50 a night, all houses would make $16955
+            a day, so it would take around 17 years to break even.</p>
+    </div>
+</div>
+<!-- /END THE FEATURETTES -->
 
 
-    <!-- FOOTER -->
-    <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-    </footer>
+<!-- FOOTER -->
+<footer>
+    <p class="pull-right"><a href="#">Back to top </a></p>
+    <p>&copy; 2016 Company, Inc. &middot; <a>Privacy</a> &middot; <a>Terms</a></p>
+</footer>
 
 </div><!-- /.container -->
 

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e53dbb2-160d-41b2-a9c8-b0d896c27149" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/Sentiment.py" afterPath="$PROJECT_DIR$/Python/Sentiment.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/neighbourhoods.csv" afterPath="$PROJECT_DIR$/Python/neighbourhoods.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/Investment.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smooth-scroll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,6 +18,7 @@
     <SUITE FILE_PATH="coverage/Flairbnb$PriceEstimation.coverage" NAME="PriceEstimation Coverage Results" MODIFIED="1510386127604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flairbnb" />
     <SUITE FILE_PATH="coverage/Flairbnb$Sentiment__1_.coverage" NAME="Sentiment (1) Coverage Results" MODIFIED="1510576819017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
     <SUITE FILE_PATH="coverage/Flairbnb$Sentiment.coverage" NAME="Sentiment Coverage Results" MODIFIED="1510564093286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flairbnb" />
+    <SUITE FILE_PATH="coverage/Flairbnb$Investment.coverage" NAME="Investment Coverage Results" MODIFIED="1510580393467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
     <SUITE FILE_PATH="coverage/Flairbnb$DataAnalysis__1_.coverage" NAME="DataAnalysis (1) Coverage Results" MODIFIED="1510572293616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
     <SUITE FILE_PATH="coverage/Flairbnb$MLOptimization.coverage" NAME="MLOptimization Coverage Results" MODIFIED="1510424199930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flairbnb" />
     <SUITE FILE_PATH="coverage/Flairbnb$DataAnalysis.coverage" NAME="DataAnalysis Coverage Results" MODIFIED="1510039194799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flairbnb" />
@@ -77,8 +79,8 @@
       <file leaf-file-name="PriceEstimation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python/PriceEstimation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            <state relative-caret-position="78">
+              <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="57" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -86,16 +88,47 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Investment.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/Investment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="275" column="34" lean-forward="true" selection-start-line="275" selection-start-column="34" selection-end-line="275" selection-end-column="34" />
+            <state relative-caret-position="351">
+              <caret line="339" column="0" lean-forward="true" selection-start-line="339" selection-start-column="0" selection-end-line="339" selection-end-column="0" />
               <folding>
                 <element signature="n#src#0;n#img#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#src#0;n#img#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#src#0;n#img#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#14532#14540#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smooth-scroll.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smooth-scroll.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="53" lean-forward="false" selection-start-line="0" selection-start-column="53" selection-end-line="0" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="carousel.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carousel.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="606">
+              <caret line="124" column="23" lean-forward="true" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,6 +140,7 @@
       <list>
         <option value="HTML File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -121,6 +155,8 @@
       <find>center</find>
       <find>pandas</find>
       <find>lakeshore</find>
+      <find>home</find>
+      <find>js</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,6 +179,8 @@
         <option value="$PROJECT_DIR$/Python/PriceEstimation.py" />
         <option value="$PROJECT_DIR$/Python/DataAnalysis.py" />
         <option value="$PROJECT_DIR$/Python/Sentiment.py" />
+        <option value="$PROJECT_DIR$/Python/Investment.py" />
+        <option value="$PROJECT_DIR$/smooth-scroll.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -224,6 +262,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value=".html&#9;FILE&#9;file:///home/danielzhou/PycharmProjects/Flairbnb/personal/templates/personal/index.html" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.selected.package.jscs" value="" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -237,7 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Sentiment (1)">
+  <component name="RunManager" selected="Python.Investment">
     <configuration name="DataAnalysis (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -278,6 +320,24 @@
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
     </configuration>
+    <configuration name="Investment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Flairbnb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Investment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="MLOptimization" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -292,24 +352,6 @@
       <module name="Flairbnb" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Flairbnb/MLOptimization.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="PriceEstimation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flairbnb" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Flairbnb" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Flairbnb/PriceEstimation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -353,18 +395,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Django server.Flairbnb" />
       <item index="1" class="java.lang.String" itemvalue="Python.MLOptimization" />
-      <item index="2" class="java.lang.String" itemvalue="Python.PriceEstimation" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Sentiment" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Sentiment (1)" />
-      <item index="5" class="java.lang.String" itemvalue="Python.DataAnalysis (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Sentiment" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Sentiment (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.DataAnalysis (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Python.Investment" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Sentiment (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.DataAnalysis (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Sentiment" />
-        <item index="3" class="java.lang.String" itemvalue="Python.MLOptimization" />
-        <item index="4" class="java.lang.String" itemvalue="Python.PriceEstimation" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Investment" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Sentiment (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.DataAnalysis (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Sentiment" />
+        <item index="4" class="java.lang.String" itemvalue="Python.MLOptimization" />
       </list>
     </recent_temporary>
   </component>
@@ -422,8 +464,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Flairbnb/DataAnalysis.py" />
-    <entry file="file://$PROJECT_DIR$/Flairbnb/PriceEstimation.py" />
     <entry file="file://$PROJECT_DIR$/Flairbnb/Sentiment.py" />
     <entry file="file://$PROJECT_DIR$/Flairbnb/MLOptimization.py" />
     <entry file="file://$PROJECT_DIR$/Flairbnb/DataAnalysis.py" />
@@ -495,16 +535,6 @@
     <entry file="file://$PROJECT_DIR$/Flairbnb/Sentiment.py" />
     <entry file="file://$PROJECT_DIR$/personal/templates/personal/index.html" />
     <entry file="file://$PROJECT_DIR$/Flairbnb/MLOptimization.py" />
-    <entry file="file://$PROJECT_DIR$/Python/PriceEstimation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python/MLOptimization.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-369">
@@ -548,14 +578,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Python/PriceEstimation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carousel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="124" column="23" lean-forward="true" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Investment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smooth-scroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="53" lean-forward="false" selection-start-line="0" selection-start-column="53" selection-end-line="0" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="275" column="34" lean-forward="true" selection-start-line="275" selection-start-column="34" selection-end-line="275" selection-end-column="34" />
+        <state relative-caret-position="351">
+          <caret line="339" column="0" lean-forward="true" selection-start-line="339" selection-start-column="0" selection-end-line="339" selection-end-column="0" />
           <folding>
             <element signature="n#src#0;n#img#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#src#0;n#img#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#src#0;n#img#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#14532#14540#0" expanded="true" />
           </folding>
         </state>
       </provider>
