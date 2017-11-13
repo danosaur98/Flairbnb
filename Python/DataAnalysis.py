@@ -20,7 +20,7 @@ df.plot.scatter(x='date', y='price')
 plt.xlabel('Month')
 plt.ylabel('Price ($)')
 plt.title('Price vs. Month')
-plt.savefig('Price vs Month.png')
+plt.savefig('PricevsMonth.png')
 
 plt.figure(2)
 df.hist('date', color='lightblue')
