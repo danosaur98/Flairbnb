@@ -29,4 +29,8 @@ plt.ylabel('# of Available Listings')
 plt.title('Frequency of Available Listings by Month')
 plt.gcf().subplots_adjust(left=0.15)
 plt.savefig('Histogram.png')
+
+
+
 plt.show()
+

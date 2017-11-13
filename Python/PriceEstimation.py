@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-
+#deprecated - updated using tensorflow
 def estimate_price(lat, longi):
     error = "Please enter a latitude and longitude within San Francisco! (Between 37.7069276929 and 37.8310927851" \
             " latitude & -122.51149999 and -122.364758519 longitude."

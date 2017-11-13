@@ -94,7 +94,7 @@
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Data Analysis</h1>
-                    <p>Using PANDAS to process the data.</p>
+                    <p>Using PANDAS to process millions of lines of web-scraped data.</p>
                     <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
                 </div>
             </div>
@@ -156,22 +156,6 @@
                  alt="Frequency of Available Listings by Month">
         </div>
     </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-        <div class="col-md-7">
-            <h2 class="featurette-heading">Pricing vs. Month </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
-                semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-                commodo.</p>
-        </div>
-        <div class="col-md-5">
-            <img class="featurette-image img-responsive center-block" src="/Flairbnb/Python/PricevsMonth.png"
-                 alt="Pricing vs. Month">
-        </div>
-    </div>
-
     <hr class="featurette-divider">
 
     <div class="row featurette">
@@ -188,6 +172,72 @@
 
     <hr class="featurette-divider">
 
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Pricing vs. Month </h2>
+            <p class="lead">Pricing appears to increase during the spring.</p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" src="/Flairbnb/Python/PricevsMonth.png"
+                 alt="Pricing vs. Month">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+            <h2 class="featurette-heading">Price Estimation and Bookings Optimization</h2>
+            <p class="lead">Enter your geographical coordinates within San Francisco (between 37.7069276929 and
+                37.8310927851 latitude & -122.51149999 and -122.364758519 longitude) to see how much money you should
+                expect to make per week
+                and what price you should set your listing to optimize your bookings.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+            <input type="text" placeholder="Latitude" id="latitude"/>
+            <br>
+            <input type="text" placeholder="Longitude" id="longitude"/>
+            <br>
+            <p><a class="btn btn-lg btn-primary" onclick="estimatePriceAndOptimize()" role="button">Calculate!</a></p>
+            <p id="message"></p>
+            <script>
+                function estimatePriceAndOptimize() {
+                    var resp = "You can expect to make about <b>$";
+                    var error = "Please make sure you entered proper coordinates."
+                    try {
+                        var lat = parseFloat(document.getElementById("latitude").value);
+                        var longi = parseFloat(document.getElementById("longitude").value);
+                    }
+                    catch (err) {
+                        document.getElementById("message").innerHTML = err;
+                        return;
+                    }
+                    if (isNaN(lat) || isNaN(longi) || lat < 37.7069276929 || lat > 37.8310927851 || longi < -122.51149999 || longi > -122.364758519) {
+                        document.getElementById("message").innerHTML = error;
+                        return;
+                    }
+                    var expected = (0.88093132 * lat + -1.81391311 * longi + 0.076020).toFixed(2);
+                    resp += expected * 7;
+                    resp += "</b> a week. To optimize your bookings and revenues, you should list your property for about <b>$";
+                    resp += expected - 20;
+                    resp += "</b> a night."
+                    document.getElementById("message").innerHTML = resp;
+                }
+            </script>
+        </div>
+    </div>
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Neighborhood with Best Reviews</h2>
+            <p class="lead">Potrero Hill, Castro/Upper Market, Pacific Heights, Mission, and Golden Gate Park have the highest percentage of positive reviews. </p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" src="/Flairbnb/Python/PricevsMonth.png"
+                 alt="Neighborhood Positive Review">
+        </div>
+    </div>
     <!-- /END THE FEATURETTES -->
 
 
