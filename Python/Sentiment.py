@@ -37,11 +37,12 @@ positive_reviews = {}
 for n in neighborhood_positive_reviews:
     positive_reviews[n] = float(neighborhood_positive_reviews[n]) / len(neighborhood_sentiment[n])
 
-for k, v in sorted(sentiment_analysis.items(), key=itemgetter(1)):
-    print(k, ": ", v)
-for k, v in sorted(positive_reviews.items(), key=itemgetter(1)):
-    print(k, ": ", v)
-# for l in sorted(sentiment_analysis):
-#    print(l, sentiment_analysis[l])
-# for l in sorted(positive_reviews):
-#    print(l, positive_reviews[l])
+# for k, v in sorted(sentiment_analysis.items(), key=itemgetter(1)):
+#    print(k, ": ", v)
+# for k, v in sorted(positive_reviews.items(), key=itemgetter(1)):
+#    print(k, ": ", v)
+for l in (sentiment_analysis):
+    print(round(sentiment_analysis[l],2))
+print("surprise mofo")
+for l in (positive_reviews):
+    print(round(positive_reviews[l],2))

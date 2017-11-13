@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e53dbb2-160d-41b2-a9c8-b0d896c27149" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/DataAnalysis.py" afterPath="$PROJECT_DIR$/Python/DataAnalysis.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/PriceEstimation.py" afterPath="$PROJECT_DIR$/Python/PriceEstimation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/Sentiment.py" afterPath="$PROJECT_DIR$/Python/Sentiment.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/neighbourhoods.csv" afterPath="$PROJECT_DIR$/Python/neighbourhoods.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +15,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Flairbnb$PriceEstimation.coverage" NAME="PriceEstimation Coverage Results" MODIFIED="1510386127604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flairbnb" />
-    <SUITE FILE_PATH="coverage/Flairbnb$Sentiment__1_.coverage" NAME="Sentiment (1) Coverage Results" MODIFIED="1510572834799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Flairbnb$Sentiment__1_.coverage" NAME="Sentiment (1) Coverage Results" MODIFIED="1510576819017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
     <SUITE FILE_PATH="coverage/Flairbnb$Sentiment.coverage" NAME="Sentiment Coverage Results" MODIFIED="1510564093286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flairbnb" />
     <SUITE FILE_PATH="coverage/Flairbnb$DataAnalysis__1_.coverage" NAME="DataAnalysis (1) Coverage Results" MODIFIED="1510572293616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
     <SUITE FILE_PATH="coverage/Flairbnb$MLOptimization.coverage" NAME="MLOptimization Coverage Results" MODIFIED="1510424199930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flairbnb" />
@@ -29,8 +29,8 @@
       <file leaf-file-name="Sentiment.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python/Sentiment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="27" column="75" lean-forward="false" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
+            <state relative-caret-position="359">
+              <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -38,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataAnalysis.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DataAnalysis.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python/DataAnalysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="416">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -86,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="237" column="50" lean-forward="false" selection-start-line="237" selection-start-column="50" selection-end-line="237" selection-end-column="50" />
+            <state relative-caret-position="294">
+              <caret line="275" column="34" lean-forward="true" selection-start-line="275" selection-start-column="34" selection-end-line="275" selection-end-column="34" />
               <folding>
                 <element signature="n#src#0;n#img#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#src#0;n#img#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -140,9 +140,10 @@
         <option value="$PROJECT_DIR$/Flairbnb/PriceEstimation.py" />
         <option value="$PROJECT_DIR$/Flairbnb/Sentiment.py" />
         <option value="$PROJECT_DIR$/Flairbnb/MLOptimization.py" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Python/PriceEstimation.py" />
         <option value="$PROJECT_DIR$/Python/DataAnalysis.py" />
+        <option value="$PROJECT_DIR$/Python/Sentiment.py" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -494,18 +495,6 @@
     <entry file="file://$PROJECT_DIR$/Flairbnb/Sentiment.py" />
     <entry file="file://$PROJECT_DIR$/personal/templates/personal/index.html" />
     <entry file="file://$PROJECT_DIR$/Flairbnb/MLOptimization.py" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="237" column="50" lean-forward="false" selection-start-line="237" selection-start-column="50" selection-end-line="237" selection-end-column="50" />
-          <folding>
-            <element signature="n#src#0;n#img#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#src#0;n#img#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#src#0;n#img#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python/PriceEstimation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
@@ -539,22 +528,34 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python/Sentiment.py">
+    <entry file="file://$PROJECT_DIR$/Python/DataAnalysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="27" column="75" lean-forward="false" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
+        <state relative-caret-position="416">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python/DataAnalysis.py">
+    <entry file="file://$PROJECT_DIR$/Python/Sentiment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="359">
+          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="275" column="34" lean-forward="true" selection-start-line="275" selection-start-column="34" selection-end-line="275" selection-end-column="34" />
+          <folding>
+            <element signature="n#src#0;n#img#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
